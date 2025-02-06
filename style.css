@@ -3,10 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(96, 90, 172);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 24px;
+    text-align: center;
 }
 
 body{
     width: 400px;
     padding: 20px;
-    border: solid 10px black;
+    border: solid 20px black;
+    display: flex;
+    height: 200px;    
 }
