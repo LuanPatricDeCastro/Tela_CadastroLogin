@@ -19,10 +19,18 @@ body{
     display: flex;
     height: 300px;
     justify-content: center;
-    align-items: center;  
+    align-items: flex-end;  
 }
 
 form{
     padding: 50px;
     align-items: center;
+}
+
+#botaorecuperarsenha{
+    background-color: brown;
+}
+
+#botaoentrar{
+    background-color: brown;
 }
