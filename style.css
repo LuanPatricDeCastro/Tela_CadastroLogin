@@ -14,9 +14,24 @@ body{
 }
 
 .login{
-    background-color: ;
+    background-color: rgba(114, 14, 164, 0.556);
     border-radius: 10px;
     width: 400px;
     padding: 40px;
-    
+    height: 400px;
+
+}
+
+.login h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.login .box input{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 10px;
 }
