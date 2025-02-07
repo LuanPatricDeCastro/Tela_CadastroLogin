@@ -7,22 +7,24 @@
     <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
-    <form action = "formulario">
-        <h1> Login </h1>
-        <div class = "barrahorizontal"> </div>
-        <div>
-            <label for = "email"> Informe seu e-mail </label>
-            <input type = "email" id="email"> 
-        </div>
-        <div>
-            <label for = "password"> Digite sua senha </label>
-            <input type = "password" id="password">    
-        </div>
+    <form>
+        <div class = "box">    
+            <h1> Login </h1>
+            <div class = "barrahorizontal"> </div>
+            <div class = "box-user">
+                <label for = "email"> Informe seu e-mail </label>    
+                <input type = "email" id = "email" name = "" required> 
+            </div>
+            <div>
+                <label for = "password"> Digite sua senha </label>
+                <input type = "password" id = "password" name = "" required>    
+            </div>
 
-        <button id = "botaoentrar"> Entrar </button>
+            <button id = "botaoentrar"> Entrar </button>
 
-        <p> Esqueceu sua senha? </p>
-        <button id = "botaorecuperarsenha"> Recuperar senhha </button>
+            <p> Esqueceu sua senha? </p>
+            <button id = "botaorecuperarsenha"> Recuperar senhha </button>
+        </div>
     </form>
 </body>
 </html>
