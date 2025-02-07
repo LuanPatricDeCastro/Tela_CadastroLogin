@@ -19,12 +19,25 @@ body{
     width: 400px;
     padding: 40px;
     height: 400px;
-
+    background-color: rgba(114, 14, 164, 0.556);
 }
 
 .login h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
+    text-align: center;
+    background-color: rgba(114, 14, 164, 0.556);
+}
+
+.login .box-user{
+    text-align: center;
+}
+
+.login .box-password{
+    text-align: center;
+}
+
+.login .box-esqueceusenha{
     text-align: center;
 }
 
@@ -34,6 +47,7 @@ body{
     border-radius: 10px;
     text-align: center;
     font-size: 10px;
+    background-color: rgba(114, 14, 164, 0.556);
 }
 
 .login .box #botaoentrar{
