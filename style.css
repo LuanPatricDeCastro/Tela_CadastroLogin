@@ -35,3 +35,10 @@ body{
     text-align: center;
     font-size: 10px;
 }
+
+.login .box #botaoentrar{
+    background-color: rgba(114, 14, 164, 0.556);
+    border-radius: 5px;
+    height: 40px;
+    width: 50%;;
+}
