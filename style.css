@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: rgb(96, 90, 172);
+    background-color:  rgb(96, 90, 172);
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -31,11 +30,6 @@ form{
     align-items: center;
 }
 
-
-#body{
-    align-items: center ;
-    background-color: black;
-}
 #botaorecuperarsenha{
     background-color: brown;
     width: 120px;
@@ -53,4 +47,10 @@ form{
     background-color: black;
     height: 2px;
     width: 250px;
+}
+
+body, form{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
