@@ -29,8 +29,19 @@ form{
 
 #botaorecuperarsenha{
     background-color: brown;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
 }
 
 #botaoentrar{
     background-color: brown;
+    width: 100px;   
+    align-items: center;
+}
+
+.barrahorizontal{
+    background-color: black;
+    height: 2px;
+    width: 250px;
 }
