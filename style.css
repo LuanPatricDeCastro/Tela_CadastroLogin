@@ -65,4 +65,14 @@ body{
     align-items: right;
     font-size: large;
     height: 40px;
+    color: White;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }   
+
+.login .box #botaoentrar:hover {
+    background-color: darkred;
+}
