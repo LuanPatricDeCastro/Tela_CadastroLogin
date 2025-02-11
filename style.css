@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    background-color:  white;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 body{
@@ -31,7 +31,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     text-align: center;
-    background-color: rgba(114, 14, 164, 0.556);
+    background-color: white; 
+    border-radius: 15px;
 }
 
 .login .box-user{
